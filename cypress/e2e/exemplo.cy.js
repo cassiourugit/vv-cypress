@@ -14,6 +14,6 @@ describe('Exemplo', () => {
     cy.get(el.campo_email).type('fake@email.com')
     
     // Valida se a propriedade value do campo recebey o texto 'fake@email.com'
-    cy.get(el.campo_email).should('have.value', 'fake@email')
+    cy.get(el.campo_email).should('have.value', 'fake@email.com')
   })
 })
