@@ -1,0 +1,15 @@
+{
+  "name": "vv-cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cassiourugit/vv-cypress.git",
+  "author": "Cássio Benincá <cassio.jesus@sofist.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "open": "cypress open",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^12.11.0"
+  }
+}
